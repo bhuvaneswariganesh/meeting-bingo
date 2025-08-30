@@ -1,73 +1,29 @@
-# Welcome to your Lovable project
+# 🎉 Meeting Bingo
 
-## Project info
+A fun game to make corporate meetings engaging.  
+Spot buzzwords like **"synergy"**, **"circle back"**, and more to complete your bingo card!
 
-**URL**: https://lovable.dev/projects/d34cb93c-4bc9-4b18-a76d-27e3631314c6
+## 🚀 Live Demo
+👉 [Play it here](https://68b2b5953ff74e26807f01be--effulgent-youtiao-ae597f.netlify.app/)
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/d34cb93c-4bc9-4b18-a76d-27e3631314c6) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
+## 🛠️ Tech Stack
+- React + TypeScript
 - Vite
-- TypeScript
-- React
-- shadcn-ui
 - Tailwind CSS
+- Netlify (deployment)
 
-## How can I deploy this project?
+## 📂 Setup Instructions
 
-Simply open [Lovable](https://lovable.dev/projects/d34cb93c-4bc9-4b18-a76d-27e3631314c6) and click on Share -> Publish.
+```bash
+# Clone repo
+git clone https://github.com/bhuvaneswariganesh/meeting-bingo.git
+cd meeting-bingo
 
-## Can I connect a custom domain to my Lovable project?
+# Install dependencies
+npm install
 
-Yes, you can!
+# Run locally
+npm run dev
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+# Build for production
+npm run build
