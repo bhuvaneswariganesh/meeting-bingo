@@ -4,7 +4,7 @@ A fun game to make corporate meetings engaging.
 Spot buzzwords like **"synergy"**, **"circle back"**, and more to complete your bingo card!
 
 ## 🚀 Live Demo
-👉 [Play it here](https://68b2b5953ff74e26807f01be--effulgent-youtiao-ae597f.netlify.app/)
+👉 [Play it here](https://meeting-bingo.netlify.app/)
 
 ## 🛠️ Tech Stack
 - React + TypeScript
